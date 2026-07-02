@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block title %}nome{% endblock title %}
+
+<!-- Dado usuario = {"nome": "Ana", "email": "ana@email.com"}, exiba os dados.-->
+
+{%block content%}
+<p>Nome:{{dados.nome}}</p>
+<p>Email:{{dados.email}}</p>
+{%endblock content%}

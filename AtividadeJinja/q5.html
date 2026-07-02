@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+{% block title %}nome{% endblock title %}
+
+<!--Liste nomes de usuários-->
+
+{%block content%}
+{% for aluno in dados %}
+    <p>Nome:{{ aluno }}</p>
+{% endfor %}
+{%endblock content%}
